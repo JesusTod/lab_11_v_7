@@ -10,7 +10,7 @@ double_digit = 0
 line = int(input('Введіть кількість чисел: '))
 
 with open('file_f.txt', 'w') as f_0:        # відкрили файл f для писання
-    for i in range(line):                     # 10 чисел від 0 до 33
+    for i in range(line):                     # list чисел від 0 до 33
         f_0.write(str(random.randint(0, 33))+'\n')  # в кінці добавили '\n' для того, щоб елементи були на різних рядках
 
 
