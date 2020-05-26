@@ -32,3 +32,4 @@ with open('file_f.txt', 'r') as f:                   # відкрили файл
 
     with open('file_g.txt', 'r') as g:               # відкрили файл g для читання
         print('Перевернутий файл g:\n', g.read())    # вивели файл g на екран
+        
